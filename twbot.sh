@@ -19,7 +19,7 @@ while true; do \
     t unfollow $i
     echo unfollowed $i
     RAND=$(shuf -i $MIN-$MAX -n 1)
-    echo "Sleeping $RAND seconds..
+    echo "Sleeping $RAND seconds.."
     sleep $RAND
   done
 done
